@@ -11,8 +11,8 @@ export const connectorMongoDB = await mongoClient.connect(URI_MONGO);
 
 const CONN_MARIADB = {
     hostname: "localhost",
-    port: 3360,
-    username: "root",
+    port: 3307,
+    username: "denoDev",
     password: "mariadb",
     db: "quotes",
     poolSize: 10
